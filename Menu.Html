@@ -1,32 +1,93 @@
-<center>
+<center lang="es">
+    <title>Menu</title>
+    <header>
+        <h2>Buscador de Tablas</h2>
 
-    <link rel="stylesheet" href="Style.css">
-    <script src="Script.js"></script>
-    <table border="">
-        <div class="container">
-            <h1>Buscador El Menu De La Tabla</h1>
-            <input type="text" id="search-input" placeholder="Buscar objeto...">
-            <th>
-                Nombre
-            <td><b>Tipo</b></td>
-            <td><b>Acceso</b></td>
-            </th>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Buscador de Tablas</title>
+            <link rel="stylesheet" href="styles.css">
+            <script src="script.js"></script>
+        </head>
+        <header>
+            <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Buscar en la tabla" id="object-table">
+        </header>
+    </header>
+    <table id="myTable" border="">
+        <thead>
             <tr>
-                <td>Zanaoria Con Patata</td>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Recomendado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pollo Revozado De Al Mama</td>
+                <td>Animal</td>
+                <td>Comer</td>
+            </tr>
+            <tr>
+                <td>Pastanaga amb Patates</td>
                 <td>Vegetal</td>
-                <td><a href="Menus/ZP.Html">Como Acer</a></td>
+                <td>Comer</td>
             </tr>
             <tr>
                 <td>Truita</td>
                 <td>Animal</td>
-                <td><a href="Menus/Truita.html">Com Acer</a></td>
+                <td>Los Dos</td>
             </tr>
-
+            <tr>
+                <td>Butifara amb patates</td>
+                <td>Animal </td>
+                <td>Comer</td>
+            </tr>
+            <tr>
+                <td>Pessols</td>
+                <td>Vegetal</td>
+                <td>Los Dos</td>
+            </tr>
+            <tr>
+                <td>Llentias amb chorio</td>
+                <td>Llegums i carn</td>
+                <td>Mangar</td>
+            </tr>
+            <tr>
+                <td>sopa</td>
+                <td>pasta</td>
+            </tr>
+            <tr>
+                <td>arros amb tomaquet</td>
+                <td>cereals</td>
+            </tr>
+            <tr>
+                <td>amanida rusa</td>
+                <td>Vegetal</td>
+            </tr>
+            <tr>
+                <td>amanida de tomaquet</td>
+                <td>Vegetal</td>
+            </tr>
+            <tr>
+                <td>amanida</td>
+                <td>Vegetal</td>
+            </tr>
+            <tr>
+                <td>asberginia</td>
+                <td>Vegetal</td>
+            </tr>
+            <tr>
+                <td>Salchichas Amb Pure</td>
+                <td>Animal</td>
+            </tr>
+        </tbody>
     </table>
 </center>
+
 <!--
 <tr>
     <td></td>
     <td></td>
-    <td><a href=""></a>Como Acer</td>
+    <td></td>
 </tr>
